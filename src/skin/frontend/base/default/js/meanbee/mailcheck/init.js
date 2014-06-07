@@ -1,0 +1,1 @@
+window.mailcheck = new Mailcheck();

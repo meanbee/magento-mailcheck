@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Meanbee_Mailcheck>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Meanbee_Mailcheck>
+    </modules>
+</config>

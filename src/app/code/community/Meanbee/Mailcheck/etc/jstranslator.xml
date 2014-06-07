@@ -1,0 +1,5 @@
+<jstranslator>
+    <mailcheck_suggestion translate="message" module="mailcheck">
+        <message>Did you mean</message>
+    </mailcheck_suggestion>
+</jstranslator>

@@ -1,0 +1,6 @@
+src/app/code/community/Meanbee/Mailcheck     app/code/community/Meanbee/Mailcheck
+src/app/design/frontend/base/default/layout/meanbee/*   app/design/frontend/base/default/layout/meanbee/
+src/app/design/frontend/base/default/template/meanbee/mailcheck app/design/frontend/base/default/template/meanbee/mailcheck
+src/skin/frontend/base/default/js/meanbee/mailcheck    skin/frontend/base/default/js/meanbee/mailcheck
+src/app/etc/modules/*    app/etc/modules/
+src/js/Meanbee/Mailcheck    js/Meanbee/Mailcheck

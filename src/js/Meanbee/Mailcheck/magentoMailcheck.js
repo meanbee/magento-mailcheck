@@ -79,5 +79,6 @@ Mailcheck.prototype = {
         var input = el.up().previous("input[type='email']");
         input.value = el.readAttribute('data-email');
         el.up().remove();
+        event.stop();
     }
 };

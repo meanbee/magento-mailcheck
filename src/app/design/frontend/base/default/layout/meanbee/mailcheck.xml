@@ -3,13 +3,13 @@
     <default>
         <reference name="before_body_end">
             <block type="page/html_head" name="mailcheck" as="mailcheck" template="meanbee/mailcheck/scripts.phtml">
-                <action method="addJs">
+                <action method="addJs" ifconfig="mailcheck/general/enabled">
                     <script>Meanbee/Mailcheck/mailcheck.min.js</script>
                 </action>
-                <action method="addJs">
+                <action method="addJs" ifconfig="mailcheck/general/enabled">
                     <script>Meanbee/Mailcheck/magentoMailcheck.js</script>
                 </action>
-                <action method="addItem">
+                <action method="addItem" ifconfig="mailcheck/general/enabled">
                     <type>skin_js</type>
                     <name>js/meanbee/mailcheck/init.js</name>
                 </action>

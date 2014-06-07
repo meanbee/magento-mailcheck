@@ -12,6 +12,7 @@
             <groups>
                 <general translate="label">
                     <label>General</label>
+                    <expanded>1</expanded>
                     <frontend_type>text</frontend_type>
                     <sort_order>1</sort_order>
                     <show_in_default>1</show_in_default>

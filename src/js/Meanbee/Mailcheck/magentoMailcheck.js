@@ -40,8 +40,7 @@ Mailcheck.prototype = {
 
                 // Ensure the suggestion text can be translated.
                 var suggestion_text = Translator.translate('Did you mean');
-                var suggestion_html = "<div class='mailcheck-advice'>" + suggestion_text + " " +
-                    suggestion.address + "@<a href='#' class='suggested-domain' data-email='" + suggestion.full + "'>" + suggestion.domain + "</a></div>"
+                var suggestion_html = "<div class='mailcheck-advice'>" + suggestion_text + " <a href='#' class='suggested-domain' data-email='" + suggestion.full + "'>" + suggestion.address + "@<strong>" + suggestion.domain + "</strong></a>?</div>"
 
                 el.insert({after: suggestion_html});
             },

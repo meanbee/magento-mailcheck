@@ -74,10 +74,10 @@ Mailcheck.prototype = {
      * @param event
      */
     useSuggestion: function(event) {
+        event.stop();
         var el = $(Event.element(event));
         var input = el.up().previous("input[type='email']");
         input.value = el.readAttribute('data-email');
         el.up().remove();
-        event.stop();
     }
 };

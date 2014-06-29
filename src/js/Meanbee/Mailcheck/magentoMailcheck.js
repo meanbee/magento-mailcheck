@@ -76,8 +76,17 @@ Mailcheck.prototype = {
     useSuggestion: function(event) {
         event.stop();
         var el = $(Event.element(event));
-        var input = el.up().previous("input[type='email']");
+
+        // Find link if we're on the strong element
+        if (!el.hasClassName('suggested-domain')) {
+            el = el.up('.suggested-domain');
+        }
+
+        // Assign value to input
+        var input = el.up('.mailcheck-advice').previous("input[type='email']");
         input.value = el.readAttribute('data-email');
-        el.up().remove();
+
+        // remove mailcheck element
+        el.up('.mailcheck-advice').remove();
     }
 };

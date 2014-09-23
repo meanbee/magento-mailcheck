@@ -9,5 +9,8 @@
             "name":"Tom Robertshaw",
             "email":"{firstname}.{lastname}@meanbee.com"
         }
-    ]
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
 }

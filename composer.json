@@ -1,0 +1,16 @@
+{
+    "name":"meanbee/magentomailcheck",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/meanbee/MagentoMailcheck",
+    "description":"Mailcheck integration with Magento for reducing user-misspelled email addresses in forms.",
+    "authors":[
+        {
+            "name":"Tom Robertshaw",
+            "email":"{firstname}.{lastname}@meanbee.com"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}

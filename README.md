@@ -1,4 +1,4 @@
-MagentoMailcheck
+Magento Mailcheck
 ================
 
 [Mailcheck](https://github.com/mailcheck/mailcheck) integration with Magento for reducing user-misspelled email addresses in forms. 
